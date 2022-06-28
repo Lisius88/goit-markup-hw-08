@@ -1,6 +1,10 @@
+
 .about-us-section {
     padding-top: 94px;
     padding-bottom: 94px;
+    @media screen and (max-width: 1199px) {
+    display: none;
+    }
 }
 
 .about-us-section__heading {
