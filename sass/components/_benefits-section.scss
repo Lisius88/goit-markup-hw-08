@@ -1,100 +1,58 @@
-@media screen and (max-width: 768px) {
-
 .benefits-section {
-        padding-top: 60px;
-    }
-
-.benefits-container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        @media screen and (min-width: 480px) {
-            width: 480px;
-        }
-    }
-
-.benefits-list {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-
-    &__item {
-
-    }
-
-    &__background {
-        background: #F5F4FA;
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 120px;
-        margin-bottom: 30px;
-    }
-
-    &__icon {
-        display: block;
-
-        width: 65px;
-        height: 70px;
-    }
-
-    &__heading {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        color: var(--color-h);
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    &__info {
-        font-size: 14px;
-        line-height: 1.71;
-        color: var(--color-text);
-        letter-spacing: 0.03em;
-        margin-bottom: 30px;
-    }
-}
-}
-
-
-@media screen and (min-width: 768px) {
-
-}    
-
-@media screen and (min-width: 1200px) {
-
-.benefits-section {
+    @media screen and (min-width: 1200px) {
     padding-top: 94px;
+    }
+    padding-top: 60px;
 }
 
 .benefits-container {
-    width: 1200px;
+    width: 480px;     
     margin-left: auto;
     margin-right: auto;
 
     padding-left: 15px;
     padding-right: 15px;
-    
+
+    @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 
 .benefits-list {
     padding: 0;
     margin: 0;
 
+@media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
 
-    display: flex;
-    margin-left: -30px;
+@media screen and (min-width: 1200px) {
+        display: flex;
+        margin-left: -30px;
+    }
 
 &__item {
     // flex-basis: calc(100% / 4 -30px);
+    text-align: left;
+    width: 450px;
+
+@media screen and (min-width: 768px) {
+        margin-left: 30px;
+        text-align: left;
+        width: 354px;
+    }
+
+@media screen and (min-width: 1200px) {
     margin-left: 30px;
     text-align: left;
     width: 270px;
+    }
 }
 
 &__background {
@@ -121,6 +79,15 @@
     color: var(--color-h);
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    text-align: center;
+
+@media screen and (min-width: 768px) {
+        text-align: left;
+    }
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 &__info {
@@ -129,7 +96,14 @@
     color: var(--color-text);
     letter-spacing: 0.03em;
     margin-top: 10px;
-}
-}
+    margin-bottom: 30px;
 
+@media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    }
+}
 }
