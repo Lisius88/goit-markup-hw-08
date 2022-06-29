@@ -875,6 +875,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .team-section {
+    width: 480px;
     background-color: var(--background-secondmain);
     padding-bottom: 60px;
     padding-top: 60px;
