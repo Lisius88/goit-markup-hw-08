@@ -1,5 +1,6 @@
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 480px) {
 .footer-section {
+        width: 480px;
         padding-bottom: 60px;
         padding-top: 60px;
         background-color: var(--background-footer);
