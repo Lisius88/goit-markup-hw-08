@@ -1,16 +1,17 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
 .benefits-section {
         padding-top: 60px;
     }
 
 .benefits-container {
-        width: 480px;
         margin-left: auto;
         margin-right: auto;
-
         padding-left: 15px;
         padding-right: 15px;
+        @media screen and (min-width: 480px) {
+            width: 480px;
+        }
     }
 
 .benefits-list {

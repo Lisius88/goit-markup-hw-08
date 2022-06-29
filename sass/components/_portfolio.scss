@@ -5,13 +5,15 @@
     }
 
     .portfolio-buttons-container {
-        width: 480px;
+        
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
         margin-bottom: 50px;
-
+        @media screen and (min-width: 480px) {
+        width: 480px;
+        }
     }
 
     .for-me {
