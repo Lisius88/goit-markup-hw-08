@@ -58,6 +58,7 @@
 
     margin-left: 30px;
     margin-top: 50px;
+    width: 354px;
     }
 
 @media screen and (min-width: 1200px) {
@@ -66,6 +67,7 @@
     margin-left: 30px;
     margin-top: 50px;
     margin-bottom: 94px;
+    width: 270px;
 }
 }
 
@@ -102,6 +104,7 @@
     margin: 0;
 
     display: flex;
+    justify-content: center;
 }
 
 .social-list__item {
@@ -112,9 +115,10 @@
     margin-right: 10px;
 }
 
-.social-list__item:first-child {
-    margin-left: 30px;
+.social-list__item:last-child {
+    margin-right: 0;
 }
+
 
 .social-list__icon {
     width: 20px;
