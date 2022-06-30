@@ -1331,12 +1331,17 @@ img {
 }
 
 .agree-text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .agree-text {
+    font-size: 14px;
+  }
 }
 
 .checkbox-label {
@@ -1375,7 +1380,7 @@ img {
 
 .modal-button {
   display: inline-block;
-  margin-left: 105px;
+  margin-left: 110px;
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
