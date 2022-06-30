@@ -1,27 +1,43 @@
 .footer-section {
+    min-width: 480px;
     background-color: var(--background-footer);
     padding-bottom: 60px;
     padding-top: 60px;
 }
 
 .footer-container {
-    width: 1200px;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 
 .footer-flex {
     padding: 0;
     margin: 0;
+
+    @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    }
 }
 
 .adress-flex {
+    text-align: center;
+    @media screen and (min-width: 1200px) {
     margin-right: 84px;
+    text-align: left;
+    }
 }
 
 .footer-adress__adress {
@@ -61,6 +77,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    }
 }
 
 .footer-adress__tel:hover,
@@ -71,6 +92,11 @@
 .div-logo {
     margin-bottom: 20px;
     display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+            justify-content: left;
+        }
 }
 
 .footer-heading {
@@ -81,16 +107,27 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        }
 }
 
 .social-flex {
-    margin-right: 93px;
+    text-align: center;
+    
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+        text-align: left;
+        }
 }
 
 .social-footer-list {
     display: flex;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
 
 .social-footer-list__item {
@@ -98,6 +135,7 @@
     height: 44px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-bottom: 60px;
 }
 
 .social-footer-list__link {
@@ -138,7 +176,11 @@
     background-color: #2196F3;
     color: #FFFFFF;
     cursor: pointer;
-    margin-left: 12px;
+    margin-left: 120px;
+
+    @media screen and (min-width: 1200px) {
+    margin-left: 10px;
+    }
 }
 
 .button-flex {
@@ -161,7 +203,12 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    min-width: 358px;
+    min-width: 450px;
     min-height: 50px;
     padding-left: 16px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+    min-width: 358px;
+    }
 }
