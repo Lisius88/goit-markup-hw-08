@@ -40,8 +40,9 @@
 }
 
 .hero-section__heading {
+    width: 360px;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.3;
     letter-spacing: 0.06em;
     color: var(--background-main);
@@ -51,9 +52,14 @@
     margin-right: auto;
     margin-bottom: 30px;
 
+    @media screen and (min-width: 768px) {
+        width: 360px;
+    }
+
     @media screen and (min-width: 1200px) {
         width: 696px;
-}
+        font-size: 44px;
+    }
 }
 
 .button {

@@ -317,8 +317,9 @@ img {
 }
 
 .hero-section__heading {
+  width: 360px;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.3;
   letter-spacing: 0.06em;
   color: var(--background-main);
@@ -327,9 +328,15 @@ img {
   margin-right: auto;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .hero-section__heading {
+    width: 360px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero-section__heading {
     width: 696px;
+    font-size: 44px;
   }
 }
 
@@ -1176,6 +1183,12 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .modal {
+    height: 581px;
+    width: 528px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     height: 581px;
@@ -1258,6 +1271,11 @@ img {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .input {
+    width: 448px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .input {
     width: 448px;
@@ -1308,6 +1326,11 @@ img {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .textarea {
+    width: 448px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .textarea {
     width: 448px;
@@ -1337,6 +1360,11 @@ img {
   color: #757575;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .agree-text {
+    font-size: 14px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .agree-text {
@@ -1396,6 +1424,11 @@ img {
   background-color: #2196F3;
   color: #FFFFFF;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .modal-button {
+    margin-left: 150px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal-button {
