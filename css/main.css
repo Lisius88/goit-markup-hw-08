@@ -419,13 +419,16 @@ img {
 }
 
 .menu-button {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 15px;
   display: inline-block;
   margin: 0;
   padding: 0;
   padding-bottom: 0px;
   border: none;
   background-color: transparent;
-  margin-left: 170px;
 }
 @media screen and (min-width: 768px) {
   .menu-button {
@@ -475,7 +478,7 @@ img {
   .menu-container {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     width: 100%;
   }
