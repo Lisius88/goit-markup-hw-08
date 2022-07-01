@@ -129,6 +129,8 @@
 }
 
 .nav-list-link--studio::after {
+    display: none;
+    @media screen and (min-width: 768px) {
     content: '';
     display: block;
     width: 100%;
@@ -139,11 +141,11 @@
     position: absolute;
     bottom: 0;
     transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .nav-list-link--portfolio::after {
-    
-
+    display: none;
     @media screen and (min-width: 768px) {
     content: '';
     display: block;
@@ -307,8 +309,11 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    padding-bottom: 0px;
     border: none;
     background-color: transparent;
+    margin-left: 170px;
+
 
     @media screen and (min-width: 768px) {
         display: none;
