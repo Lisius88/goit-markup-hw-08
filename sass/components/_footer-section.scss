@@ -30,7 +30,7 @@
     @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     }
 }
 
@@ -128,7 +128,7 @@
     text-align: center;
     
     @media screen and (min-width: 1200px) {
-        margin-right: 93px;
+        margin-right: 0px;
         text-align: left;
         }
 }
@@ -200,6 +200,7 @@
 
     @media screen and (min-width: 1200px) {
     margin-left: 10px;
+    display: inline-block;
     }
 }
 
@@ -210,6 +211,12 @@
 
 .button-icon {
     margin-left: 10px;
+}
+
+.form-flex {
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    }
 }
 
 .input-footer {
@@ -230,10 +237,11 @@
 
     @media screen and (min-width: 768px) {
         margin-left: 145px;
+        width: 450px;
     }
 
     @media screen and (min-width: 1200px) {
-    min-width: 358px;
+    width: 358px;
     margin-left: 0px;
     }
 }

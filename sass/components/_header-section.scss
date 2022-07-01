@@ -358,7 +358,6 @@
 }
 
 .menu-container {
-
     padding: 40px 48px;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -369,7 +368,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    max-width: 480px;
     }
 
     @media screen and (min-width: 768px) {
