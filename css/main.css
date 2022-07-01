@@ -544,6 +544,7 @@ img {
   .div-logo-header {
     width: 134px;
     margin-right: 75px;
+    margin-left: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
