@@ -78,11 +78,15 @@ img {
 }
 
 .container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -578,11 +582,15 @@ img {
 }
 
 .hero-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .hero-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero-container {
@@ -652,11 +660,15 @@ img {
 }
 
 .benefits-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .benefits-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .benefits-container {
@@ -848,11 +860,15 @@ img {
 }
 
 .team-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .team-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .team-container {
@@ -1007,11 +1023,15 @@ img {
 }
 
 .clients-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .clients-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .clients-container {
@@ -1149,11 +1169,15 @@ img {
 }
 
 .footer-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .footer-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -1731,12 +1755,16 @@ img {
 }
 
 .portfolio-buttons-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 25px;
+}
+@media screen and (min-width: 480px) {
+  .portfolio-buttons-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .portfolio-buttons-container {
@@ -1825,11 +1853,15 @@ img {
 }
 
 .product-container {
-  width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .product-container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .product-container {
