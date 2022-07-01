@@ -320,6 +320,11 @@
     }
 }
 
+.menu-button:hover,
+.menu-button:focus {
+    fill: #2196F3;
+}
+
 .menu-button.is-open .icon-cross {
     display: none;
 }
