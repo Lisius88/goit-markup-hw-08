@@ -207,6 +207,7 @@
 .contacts-list__item {
     margin-left: 0px;
     
+    
 
     @media screen and (min-width: 768px) {
     margin-left: 50px;
@@ -311,7 +312,7 @@
 
 .menu-button {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 10px;
     right: 15px;
     display: inline-block;
@@ -372,7 +373,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 480px;;
+    width: 100vw;
+    z-index: 1;
     }
 
     @media screen and (min-width: 768px) {
@@ -416,7 +418,7 @@
 
 .socials-header-list__link {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2196F3;
