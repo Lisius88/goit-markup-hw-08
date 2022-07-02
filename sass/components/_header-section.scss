@@ -76,6 +76,7 @@
     margin-right: 0px;
     margin-bottom: 32px;
     text-align: left;
+    
 
     @media screen and (min-width: 768px) {
     margin-right: 50px;
@@ -101,7 +102,7 @@
 }
 
 .nav-list-link {
-    display: block;
+    display: inline-block;
     font-weight: 500;
     font-size: 40px;
     line-height: 1.14;
@@ -358,7 +359,10 @@
 }
 
 .menu-container {
-    padding: 40px 48px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     background-color: #FFFFFF;
     font-size: 14px;
     text-align: center;
@@ -368,7 +372,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 480px;
+    width: 480px;;
     }
 
     @media screen and (min-width: 768px) {
