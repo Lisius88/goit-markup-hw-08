@@ -1495,7 +1495,7 @@ img {
 
 .modal {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
@@ -1521,7 +1521,7 @@ img {
 @media screen and (min-width: 768px) {
   .modal {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
