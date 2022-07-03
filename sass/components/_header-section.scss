@@ -176,7 +176,7 @@
 }
 
 .contacts-list {
-    margin-left: -30px;
+    padding: 0;
     margin-right: 0px;
     display: flex;
     flex-direction: column-reverse;
@@ -394,8 +394,10 @@
 }
 
 .socials-header-list {
+    padding: 0;
     display: flex;
     margin-top: 30px;
+    justify-content: flex-start;
 
     @media screen and (min-width: 768px) {
     display: none;
@@ -418,7 +420,7 @@
 
 .socials-header-list__link {
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2196F3;
