@@ -755,6 +755,19 @@ img {
     width: 270px;
   }
 }
+.benefits-list .benefits-list__item:last-child {
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .benefits-list .benefits-list__item:last-child {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-list .benefits-list__item:last-child {
+    margin-bottom: 0px;
+  }
+}
 .benefits-list__background {
   background: #F5F4FA;
   border-radius: 4px;
@@ -886,10 +899,20 @@ img {
 
 .team-section__heading {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16;
   text-align: center;
   color: var(--color-h);
+}
+@media screen and (min-width: 768px) {
+  .team-section__heading {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-section__heading {
+    font-size: 36px;
+  }
 }
 
 .team-container {
@@ -1081,15 +1104,24 @@ img {
 
 .clients-section__heading {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .clients-section__heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .clients-section__heading {
     margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 65px;
   }
 }
 
@@ -1104,6 +1136,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: -15px;
 }
 @media screen and (min-width: 768px) {
   .clients-list {
@@ -1112,7 +1145,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -30px;
+    margin-left: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1125,16 +1158,12 @@ img {
 }
 
 .clients-list__item {
-  margin-top: 30px;
+  margin: 15px;
   width: calc((100% - 60px) / 2);
-  margin-left: 15px;
-  margin-right: 15px;
 }
 @media screen and (min-width: 768px) {
   .clients-list__item {
-    margin-left: 30px;
-    margin-bottom: 30px;
-    margin-right: 0;
+    margin: 15px;
     width: 226px;
   }
 }
@@ -1142,12 +1171,15 @@ img {
   .clients-list__item {
     margin-left: 30px;
     width: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 }
 
 .clients-list__icon {
   padding: 16px 32px;
-  max-width: 170px;
+  width: 170px;
   height: 92px;
 }
 
@@ -1550,7 +1582,7 @@ img {
 @media screen and (min-width: 768px) {
   .modal {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);

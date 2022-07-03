@@ -59,6 +59,18 @@
     }
 }
 
+.benefits-list__item:last-child {
+    margin-bottom: 60px;
+    
+    @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+        }
+}
+
 &__background {
     background: #F5F4FA;
     border-radius: 4px;
