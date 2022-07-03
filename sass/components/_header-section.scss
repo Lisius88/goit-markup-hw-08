@@ -196,7 +196,7 @@
     align-items: center;
     flex-direction: row;
     margin-top: 0px;
-    margin-left: 180px;
+    margin-left: 220px;
     margin-right: 0px;
     }
 }
@@ -333,6 +333,7 @@
 
 .menu-button.is-open .icon-cross {
     display: none;
+    
 }
 
 .menu-button.is-open .icon-menu {
@@ -362,8 +363,7 @@
     padding-top: 48px;
     padding-bottom: 48px;
     background-color: #FFFFFF;
-    font-size: 14px;
-    text-align: center;
+
 
     @media screen and (max-width: 767px) {
     visibility: visible;
@@ -375,7 +375,6 @@
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    
     }
 
     @media screen and (min-width: 768px) {
